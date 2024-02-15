@@ -1,0 +1,186 @@
+body{
+    width:100%;
+}
+
+header{
+    background: url("../img/portada.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    padding-top: 20px;
+}
+
+.bg-nav-rumbo img{
+    width: 500px;
+}
+.bg-nav-rumbo img:hover {
+    filter: invert(100%);
+}
+.bg-nav-rumbo{
+    background: transparent !important;
+}
+
+.bg-nav-rumbo ul li a.nav-link{
+    color: #04f318;
+    font-size: 30px;
+    border-bottom: 2px solid transparent;
+    border-top: 2px solid transparent;
+}
+
+.bg-nav-rumbo ul li a.nav-link:hover{
+    border-bottom: 2px solid #f10606;
+    border-top: 2px solid #f30404;
+}
+#hero{
+    text-align: center;
+    padding-bottom: 20%;
+    padding-top: 270px;
+
+}
+
+#hero h2{
+    font-size: 60px;
+    color: rgb(199, 18, 5);
+    margin-bottom: 0;
+    margin-top: -8%;
+}
+
+#hero h1{
+    color: #04f104;
+    margin-bottom: 80px;
+    font-size: 30px;
+    
+}
+
+#hero img{
+    margin-top: -100px;
+    padding-bottom: 30PX;
+    width: 20px;
+    height: 20px;
+}
+#hero img:hover {
+    transform: scale(1.1);
+}
+
+#hero button{
+    background-color: rgb(34, 139, 172);
+    color: rgb(163, 2, 2);
+    padding: 10px 20px;
+    font-size: 26px;
+    border-radius: 10px;
+    font-weight: 700;
+    margin-top: -70px;
+}
+
+/* sección 1 */
+#planes{
+    background-color: #000000;
+    padding-top: 20px;
+    padding-bottom: 110px;
+}
+
+#planes .plan {
+    border: 1px solid #5e6d8b;
+    padding: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#planes .plan img {
+    max-width: 100%;
+    height: auto;
+}
+#planes .plan img {
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+#planes .plan:hover img {
+    transform: rotateY(180deg);
+}
+
+#planes .plan:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#planes .plan h3 {
+    margin-top: 15px;
+    color: antiquewhite;
+}
+#planes  h2 {
+    text-align: center;
+    color: aliceblue;
+}
+#planes  p {
+    margin-top: 10px;
+    text-align: center;
+    color:aquamarine;
+}
+
+#planes .row.servicios {
+    justify-content: space-between;
+}
+
+#planes .plan:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px #050505f5;
+}
+
+/* seccion 2  */
+
+#ARTICULOS{
+    background: url("../img/imagenes-de-fondos-de-pantalla-oscuros.jpg");
+    text-align: center;
+    color: aliceblue;
+    padding-bottom: 80PX;
+}
+
+#ARTICULOS img{
+    width: 250px;
+    height: 250px;
+}
+#ARTICULOS img:hover {
+    transform: scale(1.1);
+}
+
+/*seccion 3*/
+
+#adiestramiento{
+    background: url("../img/fondo1.jpg");
+    text-align: center;
+    color: aliceblue;
+    padding-bottom: 100px;
+}
+#adiestramiento h2{
+    text-align: center;
+}
+#adiestramiento p{
+    text-align: center;
+}
+#adiestramiento img{
+    width: 200px;
+    border-radius: 100px;
+}
+
+#adiestramiento img:hover {
+    width: 250px;
+    border-width: 4px; /* Cambia el ancho y el ancho del borde al pasar el ratón por encima */
+}
+
+
+/*seccion 4*/
+
+#cita{
+    text-align: center;
+    background: url("../img/ojos.jpg");
+    padding-bottom: 100px;
+    color: aliceblue;
+    padding-top: 50px;
+}
+#cita .col-md-6{
+    margin: 10px;
+}
+#cita input{
+    padding-right: 150px;
+}
